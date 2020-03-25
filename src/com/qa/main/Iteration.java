@@ -6,7 +6,14 @@ public class Iteration
 	{
 		while (loopNumber != 201)
 		{
-			System.out.println(loopNumber);
+			if (loopNumber % 2 == 0)
+			{
+				System.out.println("-");
+			}
+			else
+			{
+				System.out.println("*");
+			}
 			loopNumber++;
 		}
 	}
