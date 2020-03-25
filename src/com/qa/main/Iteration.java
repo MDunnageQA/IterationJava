@@ -17,5 +17,17 @@ public class Iteration
 			loopNumber++;
 		}
 	}
+	
+	public void printOneToTenTenTimes()
+	{
+		for (int oneToTenNumberOne = 1; oneToTenNumberOne < 11; oneToTenNumberOne++)
+		{
+			
+			for (int oneToTenNumberTwo = 1; oneToTenNumberTwo < 11; oneToTenNumberTwo++)
+			{
+				System.out.println(oneToTenNumberTwo);
+			}
+		}
+	}
 
 }

@@ -9,6 +9,7 @@ public class Runner
 		int numberToLoop = 100;
 		Iteration iterateNumbers = new Iteration();
 		iterateNumbers.appendixBFlowchartLoop(numberToLoop);
+		iterateNumbers.printOneToTenTenTimes();
 
 	}
 
