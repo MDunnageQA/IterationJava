@@ -7,9 +7,12 @@ public class Runner
 	{
 		// TODO Auto-generated method stub
 		int numberToLoop = 100;
+		int loopMaxNumber = 11;
+		int loopCurrentNumber = 1;
 		Iteration iterateNumbers = new Iteration();
 		iterateNumbers.appendixBFlowchartLoop(numberToLoop);
 		iterateNumbers.printOneToTenTenTimes();
+		iterateNumbers.printNumbersToValues(loopMaxNumber, loopCurrentNumber);
 
 	}
 

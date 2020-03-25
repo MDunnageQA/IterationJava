@@ -29,5 +29,17 @@ public class Iteration
 			}
 		}
 	}
+	
+	public void printNumbersToValues(int loopMaxNumber, int loopCurrentNumber)
+	{
+		while (loopCurrentNumber != loopMaxNumber)
+		{
+			for (int loopPrintNumber = 1; loopPrintNumber <= loopCurrentNumber; loopPrintNumber++)
+			{
+				System.out.println(loopCurrentNumber);
+			}
+			loopCurrentNumber++;
+		}
+	}
 
 }
